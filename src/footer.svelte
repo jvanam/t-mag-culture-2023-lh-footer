@@ -1,6 +1,6 @@
 <section class="wrapper">
 	<div class="home-link">
-		<img src="/handwriting.svg" />
+		<img src="/handwriting-white.png" />
 	</div>
 	<div class="section-links-wrapper">
 		<div class="section-link s1">
@@ -55,6 +55,14 @@
 			justify-content: center;
 			text-align: center;
 		}
+		.home-link img {
+			position: absolute;
+			left: 50%;
+			top: 5px;
+			transform: translateX(-50%);
+			height: 70px;
+			width: auto;
+		}
 	}
 	@media only screen and (min-width: 501px) {
 		.section-links-wrapper {
@@ -76,6 +84,14 @@
 			justify-content: center;
 			text-align: center;
 		}
+		.home-link img {
+			position: absolute;
+			left: 50%;
+			top: 5px;
+			transform: translateX(-50%);
+			height: 90px;
+			width: auto;
+		}
 	}
 	.wrapper {
 		width: 100vw;
@@ -83,16 +99,16 @@
 
 	.home-link {
 		font-family: "FactMedium";
-		background: linear-gradient(180deg, #b9b9b9 0%, #e2e2e0 100%, #e2e2e0 100%);
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		/* background: linear-gradient(180deg, #b9b9b9 0%, #e2e2e0 100%, #e2e2e0 100%); */
+		background-color: #000000;
+		position: relative;
 	}
 	.home-link img {
-		height: 60%;
+		position: absolute;
+		left: 50%;
+		top: 5px;
+		transform: translateX(-50%);
 		width: auto;
-		margin-top: -5px;
 	}
 
 	.section-link .subtitle {
