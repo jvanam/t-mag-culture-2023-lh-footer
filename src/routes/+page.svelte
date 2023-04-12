@@ -429,14 +429,184 @@
 </section>
 
 <style>
-	/* SMALL / MOBILE */
-	@media only screen and (max-width: 500px) {
+	/* GRID COLUMNS ONLY: */
+	@media only screen and (max-width: 600px) {
+		.lh-grid {
+			display: grid;
+			grid-template-columns: 1fr;
+		}
 	}
-	/* MEDIUM / TABLET */
-	@media only screen and (min-width: 501px) and (max-width: 850px) {
+	@media only screen and (min-width: 601px) and (max-width: 1200px) {
+		.lh-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
 	}
-	/* LARGE / DESKTOP */
+	@media only screen and (min-width: 1201px) and (max-width: 1449px) {
+		.lh-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+	@media only screen and (min-width: 1450px) {
+		.lh-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+		}
+	}
+
+	/* SMALL */
+	@media only screen and (max-width: 600px) {
+		.legend-text,
+		.heir-text {
+			font-size: 16px;
+		}
+		.legend-text {
+			font-family: "KipCondensedBold";
+		}
+		.heir-text {
+			font-family: "FactCondensedBold";
+		}
+		.grid-item-wrapper + img {
+			display: none;
+		}
+		.lh-grid-item {
+			height: auto;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			line-height: 1.1;
+		}
+		.grid-underline-row::after {
+			display: none;
+		}
+		.lh-grid-item {
+			position: relative;
+			border-top: 1px black dashed;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	/* MEDIUM */
+	@media only screen and (min-width: 601px) and (max-width: 850px) {
+		.legend-text,
+		.heir-text {
+			font-size: 17px;
+		}
+		.legend-text {
+			font-family: "KipCondensedRegular";
+		}
+		.heir-text {
+			font-family: "FactCondensedRegular";
+		}
+		.grid-item-wrapper + img {
+			opacity: 0%;
+			width: 400px;
+			height: auto;
+			position: absolute;
+			z-index: 50;
+			top: 70px;
+			left: 0px;
+			transition: opacity 0.2s linear;
+			pointer-events: none;
+		}
+		.grid-item-wrapper:hover + img {
+			opacity: 100%;
+		}
+		.lh-grid-item {
+			height: 80px;
+			line-height: 1.3;
+		}
+		.grid-underline-row::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 3px;
+			background-color: #a19be8;
+			opacity: 0;
+			transition: opacity 300ms, transform 300ms;
+			transform: translate3d(-100%, 0, 0);
+		}
+		.grid-item-wrapper:hover > .grid-underline-row::after,
+		.grid-item-wrapper:focus > .grid-underline-row::after {
+			transform: translate3d(0, 0, 0);
+			opacity: 1;
+		}
+		.lh-grid-item {
+			position: relative;
+			border-top: 1px black dashed;
+			border-bottom: 1px black dashed;
+			margin-bottom: -1px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	/* LARGE */
 	@media only screen and (min-width: 851px) {
+		.legend-text,
+		.heir-text {
+			font-size: 17px;
+		}
+		.legend-text {
+			font-family: "KipCondensedRegular";
+		}
+		.heir-text {
+			font-family: "FactCondensedRegular";
+		}
+		.grid-item-wrapper + img {
+			opacity: 0%;
+			width: 400px;
+			height: auto;
+			position: absolute;
+			z-index: 50;
+			top: 70px;
+			left: 0px;
+			transition: opacity 0.2s linear;
+			pointer-events: none;
+		}
+		.grid-item-wrapper:hover + img {
+			opacity: 100%;
+		}
+		.lh-grid-item {
+			height: 80px;
+			line-height: 1.3;
+		}
+		.grid-underline-row::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 3px;
+			background-color: #a19be8;
+			opacity: 0;
+			transition: opacity 300ms, transform 300ms;
+			transform: translate3d(-100%, 0, 0);
+		}
+
+		.grid-item-wrapper:hover > .grid-underline-row::after,
+		.grid-item-wrapper:focus > .grid-underline-row::after {
+			transform: translate3d(0, 0, 0);
+			opacity: 1;
+		}
+		.grid-item-wrapper:hover > .grid-underline-row > .legend-text {
+			font-family: "KipCondensedBold";
+		}
+		.grid-item-wrapper:hover > .grid-underline-row > .heir-text {
+			font-family: "FactCondensedBold";
+		}
+		.lh-grid-item {
+			position: relative;
+			border-top: 1px black dashed;
+			border-bottom: 1px black dashed;
+			margin-bottom: -1px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
 	}
 	/* ALL SCREEN SIZES / GLOBAL */
 	:global(*) {
@@ -455,45 +625,12 @@
 	.wrapper {
 		background-color: #eeeeee;
 	}
-	.lh-grid {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
-	.lh-grid-item {
-		position: relative;
-		height: 80px;
-		border-top: 1px black dotted;
-		border-bottom: 1px black dotted;
-		margin-bottom: -1px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		line-height: 1.3;
-	}
 	.grid-underline-row {
 		text-decoration: none;
 		overflow: hidden;
 		position: relative;
 		width: fit-content;
 		text-align: center;
-	}
-	.grid-underline-row::after {
-		content: "";
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 3px;
-		background-color: #a19be8;
-		opacity: 0;
-		transition: opacity 300ms, transform 300ms;
-		transform: translate3d(-100%, 0, 0);
-	}
-
-	.grid-item-wrapper:hover > .grid-underline-row::after,
-	.grid-item-wrapper:focus > .grid-underline-row::after {
-		transform: translate3d(0, 0, 0);
-		opacity: 1;
 	}
 	.grid-item-wrapper {
 		text-align: center;
@@ -508,33 +645,9 @@
 	.small-text {
 		text-transform: uppercase;
 	}
-	.legend-text,
-	.heir-text {
-		font-size: 17px;
-	}
-	.legend-text {
-		font-family: "KipCondensedRegular";
-	}
-	.heir-text {
-		font-family: "FactCondensedRegular";
-	}
 	.small-text {
 		font-size: 13px;
 		font-family: "KipCondensedRegular";
-	}
-	.grid-item-wrapper + img {
-		opacity: 0%;
-		width: 400px;
-		height: auto;
-		position: absolute;
-		z-index: 50;
-		top: 70px;
-		left: 0px;
-		transition: opacity 0.2s linear;
-		pointer-events: none;
-	}
-	.grid-item-wrapper:hover + img {
-		opacity: 100%;
 	}
 
 	@font-face {

@@ -7,24 +7,45 @@
 </section>
 
 <style>
-	.wrapper {
-		padding-bottom: 20px;
-		padding-top: 30px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+	@media only screen and (max-width: 600px) {
+		.title {
+			font-family: "KipSuper";
+			font-size: 35px;
+			padding-top: 3px;
+		}
+		.subtitle {
+			display: none;
+		}
+		.wrapper {
+			padding-bottom: 20px;
+			padding-top: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 	}
-	.title {
-		font-family: "KipSuper";
-		font-size: 35px;
+	@media only screen and (min-width: 601px) {
+		.title {
+			font-family: "KipSuper";
+			font-size: 35px;
+		}
+		.subtitle {
+			font-family: "FactMedium";
+			font-size: 24px;
+			text-align: center;
+			line-height: 1;
+		}
+		.wrapper {
+			padding-bottom: 20px;
+			padding-top: 30px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 	}
-	.subtitle {
-		font-family: "FactMedium";
-		font-size: 24px;
-		text-align: center;
-		line-height: 1;
-	}
+
 	.subtitle span {
 		display: block;
 	}
