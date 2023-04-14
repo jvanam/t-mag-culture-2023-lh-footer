@@ -452,7 +452,11 @@
 							</div>
 						{/if}
 					</div>
-					<img class={`floating ${pair.imgClass}`} src={pair.imgSrc} />
+					<img
+						class={`floating ${pair.imgClass}`}
+						alt={pair.imgAlt}
+						src={pair.imgSrc}
+					/>
 				</div>
 			</a>
 		{/each}

@@ -1,7 +1,10 @@
 <section class="wrapper">
 	<a href="https://www.nytimes.com/section/t-magazine">
 		<div class="home-link">
-			<img src="/handwriting-white.png" />
+			<img
+				src="/handwriting-white.png"
+				alt="Handwritten magazine issue title, reads 'This Woman's Work'"
+			/>
 		</div>
 	</a>
 	<div class="section-links-wrapper">
