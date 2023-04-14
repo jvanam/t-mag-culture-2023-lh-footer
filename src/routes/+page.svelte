@@ -1,6 +1,6 @@
 <script>
-	import Header from "../Header.svelte";
-	import Footer from "../Footer.svelte";
+	import Header from "../header.svelte";
+	import Footer from "../footer.svelte";
 	let pairs = [
 		{
 			imgSrc: "/images/Danai Gurira _ Dominique Thorne.jpg",
