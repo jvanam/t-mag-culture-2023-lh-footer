@@ -452,7 +452,7 @@
 							</div>
 						{/if}
 					</div>
-					<img class={pair.imgClass} src={pair.imgSrc} />
+					<img class={`floating ${pair.imgClass}`} src={pair.imgSrc} />
 				</div>
 			</a>
 		{/each}
@@ -800,5 +800,23 @@
 	@font-face {
 		font-family: "KipCondensedBold";
 		src: url("/Kippenberger-77 Condensed Bold.otf") format("opentype");
+	}
+	.floating {
+		animation-name: floating;
+		animation-duration: 9s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+
+	@keyframes floating {
+		0% {
+			transform: translate(0, 0px);
+		}
+		50% {
+			transform: translate(-10px, 10px);
+		}
+		100% {
+			transform: translate(0, -0px);
+		}
 	}
 </style>
