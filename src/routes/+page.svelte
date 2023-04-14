@@ -42,7 +42,7 @@
 				"https://www.nytimes.com/2023/04/20/t-magazine/paula-vogel-sarah-ruhl.html",
 		},
 		{
-			imgSrc: "",
+			imgSrc: "/images/SHIRIN_EMEL.jpg",
 			imgAlt: "",
 			imgClass: "lg-bl md-br sm-bl",
 			legend: "Shirin Neshat",
@@ -146,7 +146,7 @@
 				"https://www.nytimes.com/2023/04/20/t-magazine/joy-harjo-layli-long-soldier.html",
 		},
 		{
-			imgSrc: "",
+			imgSrc: "/images/Denyce Graves & Symone Harcum.jpg",
 			imgAlt: "",
 			imgClass: "lg-l md-l sm-bl",
 			legend: "denyce graves",
@@ -315,7 +315,7 @@
 				"https://www.nytimes.com/2023/04/20/t-magazine/lana-del-rey-joan-baez.html",
 		},
 		{
-			imgSrc: "",
+			imgSrc: "/images/marlee-teyana.jpg",
 			imgAlt: "",
 			imgClass: "lg-tr md-tr sm-tr",
 			legend: "marlee matlin",
@@ -393,7 +393,7 @@
 				"https://www.nytimes.com/2023/04/20/t-magazine/rita-dove-safiya-sinclair.html",
 		},
 		{
-			imgSrc: "",
+			imgSrc: "/images/Salt-N-Pepa_0290.jpg",
 			imgAlt: "",
 			imgClass: "lg-t md-tr sm-tr",
 			legend: "cheryl james and sandra denton, a.k.a. Salt-N-Pepa",
