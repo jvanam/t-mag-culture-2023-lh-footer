@@ -5,6 +5,7 @@
 		{
 			imgSrc: "/images/Danai Gurira _ Dominique Thorne.jpg",
 			imgAlt: "",
+			imgClass: "lg-br md-br sm-br",
 			legend: "Danai Gurira",
 			legendOccupation: "Playwright & Actress",
 			legendNewLine: false,
@@ -17,6 +18,7 @@
 		{
 			imgSrc: "/images/Graciela Iturbide _ Maya Goded.jpg",
 			imgAlt: "",
+			imgClass: "lg-b md-b sm-bl",
 			legend: "Graciela Iturbide",
 			legendOccupation: "Photographer",
 			legendNewLine: false,
@@ -29,6 +31,7 @@
 		{
 			imgSrc: "/images/Paula Vogel _ Sarah Ruhl.jpg",
 			imgAlt: "",
+			imgClass: "lg-b md-bl sm-br",
 			legend: "Paula Vogel",
 			legendOccupation: "Playwright & Writer",
 			legendNewLine: false,
@@ -41,6 +44,7 @@
 		{
 			imgSrc: "",
 			imgAlt: "",
+			imgClass: "lg-bl md-br sm-bl",
 			legend: "Shirin Neshat",
 			legendOccupation: "visual artist & filmmaker",
 			legendNewLine: false,
@@ -53,6 +57,7 @@
 		{
 			imgSrc: "/images/Margaret Cho _ Atsuko Okatsuka.jpg",
 			imgAlt: "",
+			imgClass: "lg-r md-b sm-br",
 			legend: "margaret cho",
 			legendOccupation: "comedian & actress",
 			legendNewLine: false,
@@ -65,6 +70,7 @@
 		{
 			imgSrc: "/images/Ulla Johnson _ Raven Leilani.jpg",
 			imgAlt: "",
+			imgClass: "lg-b md-l sm-bl",
 			legend: "ulla johnson",
 			legendOccupation: "fashion designer",
 			legendNewLine: false,
@@ -77,6 +83,7 @@
 		{
 			imgSrc: "/images/Mira Nair _ Aneeth Arora.jpg",
 			imgAlt: "",
+			imgClass: "lg-b md-r sm-br",
 			legend: "mira nair",
 			legendOccupation: "filmmaker",
 			legendNewLine: false,
@@ -89,6 +96,7 @@
 		{
 			imgSrc: "/images/Jeanette Winterson _ Eleanor Shearer.jpg",
 			imgAlt: "",
+			imgClass: "lg-l md-b sm-bl",
 			legend: "jeanette winterson",
 			legendOccupation: "writer",
 			legendNewLine: false,
@@ -101,6 +109,7 @@
 		{
 			imgSrc: "/images/Gina Prince-Bythewood _ Thuso Mbedu.jpg",
 			imgAlt: "",
+			imgClass: "lg-r md-l sm-br",
 			legend: "gina prince-bythewood",
 			legendOccupation: "screenwriter & director",
 			legendNewLine: false,
@@ -113,6 +122,7 @@
 		{
 			imgSrc: "/images/Juliette Lewis _ Sophie Thatcher.jpg",
 			imgAlt: "",
+			imgClass: "lg-b md-r sm-bl",
 			legend: "juliette lewis",
 			legendOccupation: "musician & actress",
 			legendNewLine: false,
@@ -125,6 +135,7 @@
 		{
 			imgSrc: "/images/Joy Harjo _ Layli Long Soldier.jpg",
 			imgAlt: "",
+			imgClass: "lg-b md-t sm-br",
 			legend: "joy harjo",
 			legendOccupation: "poet & writer",
 			legendNewLine: false,
@@ -137,6 +148,7 @@
 		{
 			imgSrc: "",
 			imgAlt: "",
+			imgClass: "lg-l md-l sm-bl",
 			legend: "denyce graves",
 			legendOccupation: "opera singer & director",
 			legendNewLine: false,
@@ -149,6 +161,7 @@
 		{
 			imgSrc: "/images/Anna Deavere Smith _ Michela Marie Lerman.jpg",
 			imgAlt: "",
+			imgClass: "lg-r md-r sm-br",
 			legend: "anna deavere smith",
 			legendOccupation: "PLAYWRIGHT & actress",
 			legendNewLine: false,
@@ -161,6 +174,7 @@
 		{
 			imgSrc: "/images/Margaret Atwood _ Mona Awad.jpg",
 			imgAlt: "",
+			imgClass: "lg-r md-l sm-bl",
 			legend: "margaret atwood",
 			legendOccupation: "writer",
 			legendNewLine: false,
@@ -173,6 +187,7 @@
 		{
 			imgSrc: "/images/Sharon D Clarke _ Alexia Khadime.jpg",
 			imgAlt: "",
+			imgClass: "lg-b md-l sm-br",
 			legend: "sharon d clarke",
 			legendOccupation: "actress",
 			legendNewLine: false,
@@ -185,6 +200,7 @@
 		{
 			imgSrc: "/images/Wu Tsang _ Klein.jpg",
 			imgAlt: "",
+			imgClass: "lg-l md-tr sm-bl",
 			legend: "wu tsang",
 			legendOccupation: "multidisciplinary artist",
 			legendNewLine: false,
@@ -197,6 +213,7 @@
 		{
 			imgSrc: "/images/Gabriela Camara _ Monica Lopez Santiago.jpg",
 			imgAlt: "",
+			imgClass: "lg-r md-t sm-br",
 			legend: "gabriela cámara",
 			legendOccupation: "chef",
 			legendNewLine: false,
@@ -209,6 +226,7 @@
 		{
 			imgSrc: "/images/Marina Abramovic _ Sondra Radvanovsky.jpg",
 			imgAlt: "",
+			imgClass: "lg-tr md-tl sm-bl",
 			legend: "marina abramović",
 			legendOccupation: "conceptual artist",
 			legendNewLine: false,
@@ -221,6 +239,7 @@
 		{
 			imgSrc: "/images/Tourmaline _ Xoai Pham.jpg",
 			imgAlt: "",
+			imgClass: "lg-l md-tr sm-br",
 			legend: "tourmaline",
 			legendOccupation: "visual artist",
 			legendNewLine: false,
@@ -233,6 +252,7 @@
 		{
 			imgSrc: "/images/Sigrid Nunez _ Weike Wang.jpg",
 			imgAlt: "",
+			imgClass: "lg-l md-tl sm-bl",
 			legend: "sigrid nunez",
 			legendOccupation: "writer",
 			legendNewLine: false,
@@ -245,6 +265,7 @@
 		{
 			imgSrc: "/images/Ruthie Rogers _ Nina Raine.jpg",
 			imgAlt: "",
+			imgClass: "lg-r md-l sm-tr",
 			legend: "ruth rogers",
 			legendOccupation: "chef",
 			legendNewLine: false,
@@ -257,6 +278,7 @@
 		{
 			imgSrc: "/images/Wangechi Mutu _ Priscella Aleman.jpg",
 			imgAlt: "",
+			imgClass: "lg-tr md-tr sm-tl",
 			legend: "wangechu mutu",
 			legendOccupation: "multimedia artist",
 			legendNewLine: false,
@@ -269,6 +291,7 @@
 		{
 			imgSrc: "/images/Bernardine Evaristo _ Lynette Linton.jpg",
 			imgAlt: "",
+			imgClass: "lg-tl md-tl sm-tr",
 			legend: "bernardine evaristo",
 			legendOccupation: "writer",
 			legendNewLine: false,
@@ -281,6 +304,7 @@
 		{
 			imgSrc: "/images/Joan Baez _ Lana Del Rey.jpg",
 			imgAlt: "",
+			imgClass: "lg-l md-tl sm-tl",
 			legend: "joan baez",
 			legendOccupation: "singer-songwriter & visual artist",
 			legendNewLine: false,
@@ -293,6 +317,7 @@
 		{
 			imgSrc: "",
 			imgAlt: "",
+			imgClass: "lg-tr md-tr sm-tr",
 			legend: "marlee matlin",
 			legendOccupation: "actress",
 			legendNewLine: false,
@@ -305,6 +330,7 @@
 		{
 			imgSrc: "/images/Maria Grazia Chiuri _ Zadie Xa.jpg",
 			imgAlt: "",
+			imgClass: "lg-t md-t sm-tl",
 			legend: "maria grazia chiuri",
 			legendOccupation: "fashion designer",
 			legendNewLine: false,
@@ -317,6 +343,7 @@
 		{
 			imgSrc: "/images/Emily Watson _ Aisling Franciosi.jpg",
 			imgAlt: "",
+			imgClass: "lg-t md-tl sm-tr",
 			legend: "emily watson",
 			legendOccupation: "actress",
 			legendNewLine: false,
@@ -329,6 +356,7 @@
 		{
 			imgSrc: "/images/Howardena Pindell _ Melissa Cody.jpg",
 			imgAlt: "",
+			imgClass: "lg-tl md-tr sm-tl",
 			legend: "howardena pindell",
 			legendOccupation: "painter",
 			legendNewLine: false,
@@ -341,6 +369,7 @@
 		{
 			imgSrc: "/images/Naomi Watts _ Elle Fanning.jpg",
 			imgAlt: "",
+			imgClass: "lg-tr md-t sm-tr",
 			legend: "naomi watts",
 			legendOccupation: "actress",
 			legendNewLine: false,
@@ -353,6 +382,7 @@
 		{
 			imgSrc: "/images/Rita Dove _ Safiya Sinclair.jpg",
 			imgAlt: "",
+			imgClass: "lg-t md-tl sm-tl",
 			legend: "rita dove",
 			legendOccupation: "poet & writer",
 			legendNewLine: false,
@@ -365,6 +395,7 @@
 		{
 			imgSrc: "",
 			imgAlt: "",
+			imgClass: "lg-t md-tr sm-tr",
 			legend: "cheryl james and sandra denton, a.k.a. Salt-N-Pepa",
 			legendOccupation: "musicians",
 			legendNewLine: true,
@@ -377,6 +408,7 @@
 		{
 			imgSrc: "/images/Madhur Jaffrey _ Japanese Breakfast.jpg",
 			imgAlt: "",
+			imgClass: "lg-tl md-t sm-tl",
 			legend: "madhur jaffrey",
 			legendOccupation: "actress & writer",
 			legendNewLine: false,
@@ -420,7 +452,7 @@
 							</div>
 						{/if}
 					</div>
-					<img src={pair.imgSrc} />
+					<img class={pair.imgClass} src={pair.imgSrc} />
 				</div>
 			</a>
 		{/each}
@@ -430,16 +462,44 @@
 
 <style>
 	/* GRID COLUMNS ONLY: */
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 730px) {
 		.lh-grid {
 			display: grid;
 			grid-template-columns: 1fr;
 		}
 	}
-	@media only screen and (min-width: 601px) and (max-width: 1200px) {
+	@media only screen and (min-width: 731px) and (max-width: 1200px) {
 		.lh-grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
+		}
+		.grid-item-wrapper + img.sm-t {
+			bottom: 100px;
+		}
+		.grid-item-wrapper + img.sm-tr {
+			bottom: 100px;
+			left: 70%;
+		}
+		.grid-item-wrapper + img.sm-tl {
+			bottom: 100px;
+			right: 70%;
+		}
+		.grid-item-wrapper + img.sm-b {
+			top: 100px;
+		}
+		.grid-item-wrapper + img.sm-br {
+			top: 100px;
+			left: 70%;
+		}
+		.grid-item-wrapper + img.sm-bl {
+			top: 70px;
+			right: 70%;
+		}
+		.grid-item-wrapper + img.sm-l {
+			right: 100%;
+		}
+		.grid-item-wrapper + img.sm-r {
+			left: 100%;
 		}
 	}
 	@media only screen and (min-width: 1201px) and (max-width: 1449px) {
@@ -447,16 +507,72 @@
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
 		}
+		.grid-item-wrapper + img.md-t {
+			bottom: 100px;
+		}
+		.grid-item-wrapper + img.md-tr {
+			bottom: 100px;
+			left: 70%;
+		}
+		.grid-item-wrapper + img.md-tl {
+			bottom: 100px;
+			right: 70%;
+		}
+		.grid-item-wrapper + img.md-b {
+			top: 100px;
+		}
+		.grid-item-wrapper + img.md-br {
+			top: 100px;
+			left: 70%;
+		}
+		.grid-item-wrapper + img.md-bl {
+			top: 70px;
+			right: 70%;
+		}
+		.grid-item-wrapper + img.md-l {
+			right: 100%;
+		}
+		.grid-item-wrapper + img.md-r {
+			left: 100%;
+		}
 	}
 	@media only screen and (min-width: 1450px) {
 		.lh-grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr 1fr;
 		}
+		.grid-item-wrapper + img.lg-t {
+			bottom: 100px;
+		}
+		.grid-item-wrapper + img.lg-tr {
+			bottom: 100px;
+			left: 70%;
+		}
+		.grid-item-wrapper + img.lg-tl {
+			bottom: 100px;
+			right: 70%;
+		}
+		.grid-item-wrapper + img.lg-b {
+			top: 100px;
+		}
+		.grid-item-wrapper + img.lg-br {
+			top: 100px;
+			left: 70%;
+		}
+		.grid-item-wrapper + img.lg-bl {
+			top: 70px;
+			right: 70%;
+		}
+		.grid-item-wrapper + img.lg-l {
+			right: 100%;
+		}
+		.grid-item-wrapper + img.lg-r {
+			left: 100%;
+		}
 	}
 
 	/* SMALL */
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 740px) {
 		.legend-text,
 		.heir-text {
 			font-size: 16px;
@@ -488,7 +604,7 @@
 		}
 	}
 	/* MEDIUM */
-	@media only screen and (min-width: 601px) and (max-width: 850px) {
+	@media only screen and (min-width: 741px) and (max-width: 850px) {
 		.legend-text,
 		.heir-text {
 			font-size: 17px;
@@ -505,8 +621,8 @@
 			height: auto;
 			position: absolute;
 			z-index: 50;
-			top: 70px;
-			left: 0px;
+			/* top: 70px;
+			left: 0px; */
 			transition: opacity 0.2s linear;
 			pointer-events: none;
 		}
@@ -562,11 +678,10 @@
 			height: auto;
 			position: absolute;
 			z-index: 50;
-			top: 70px;
-			left: 0px;
 			transition: opacity 0.2s linear;
 			pointer-events: none;
 		}
+
 		.grid-item-wrapper:hover + img {
 			opacity: 100%;
 		}

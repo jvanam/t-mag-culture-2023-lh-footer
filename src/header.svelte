@@ -25,7 +25,27 @@
 			justify-content: center;
 		}
 	}
-	@media only screen and (min-width: 601px) {
+	@media only screen and (min-width: 601px) and (max-width: 1200px) {
+		.title {
+			font-family: "KipSuper";
+			font-size: 35px;
+		}
+		.subtitle {
+			font-family: "FactMedium";
+			font-size: 22px;
+			text-align: center;
+			line-height: 1;
+		}
+		.wrapper {
+			padding-bottom: 20px;
+			padding-top: 30px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	@media only screen and (min-width: 1201px) {
 		.title {
 			font-family: "KipSuper";
 			font-size: 35px;
