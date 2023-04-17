@@ -265,7 +265,7 @@
 		{
 			imgSrc: "/images/Ruthie Rogers _ Nina Raine.jpg",
 			imgAlt: "",
-			imgClass: "lg-r md-l sm-tr",
+			imgClass: "lg-tr md-l sm-tr",
 			legend: "ruth rogers",
 			legendOccupation: "chef",
 			legendNewLine: false,
@@ -698,6 +698,8 @@
 		.grid-item-wrapper + img {
 			opacity: 0%;
 			width: 400px;
+			max-height: 380px;
+			object-fit: contain;
 			height: auto;
 			position: absolute;
 			z-index: 50;
