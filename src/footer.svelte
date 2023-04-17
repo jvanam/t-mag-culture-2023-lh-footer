@@ -53,12 +53,8 @@
 			grid-template-columns: 1fr;
 			grid-template-rows: 1fr 1fr 1fr 1fr;
 		}
-		.home-link,
 		.section-links-wrapper {
 			width: 100vw;
-		}
-		.home-link {
-			height: 70px;
 		}
 		.section-link {
 			width: 100%;
@@ -69,20 +65,11 @@
 			justify-content: center;
 			text-align: center;
 		}
-		.home-link img {
-			position: absolute;
-			left: 50%;
-			top: 5px;
-			transform: translateX(-50%);
-			height: 70px;
-			width: auto;
-		}
 		.wrapper {
 			width: 100vw;
 		}
 		.home-link {
 			font-family: "FactMedium";
-			/* background: linear-gradient(180deg, #b9b9b9 0%, #e2e2e0 100%, #e2e2e0 100%); */
 			background-color: #000000;
 			position: relative;
 		}
@@ -93,7 +80,6 @@
 			transform: translateX(-50%);
 			width: auto;
 		}
-
 		.section-link .subtitle {
 			font-family: "FactCondensedMedium";
 			line-height: 1.05;
@@ -111,7 +97,6 @@
 			grid-template-rows: 1fr;
 			grid-template-columns: 1fr 1fr 1fr 1fr;
 		}
-		.home-link,
 		.section-links-wrapper {
 			height: 80px;
 			width: 100vw;
@@ -124,14 +109,6 @@
 			align-items: center;
 			justify-content: center;
 			text-align: center;
-		}
-		.home-link img {
-			position: absolute;
-			left: 50%;
-			top: 5px;
-			transform: translateX(-50%);
-			height: 70px;
-			width: auto;
 		}
 		.wrapper {
 			width: 100vw;
@@ -149,7 +126,6 @@
 			transform: translateX(-50%);
 			width: auto;
 		}
-
 		.section-link .subtitle {
 			font-family: "FactCondensedMedium";
 			line-height: 1.05;
@@ -180,20 +156,6 @@
 			align-items: center;
 			justify-content: center;
 			text-align: center;
-		}
-		.home-link {
-			font-family: "FactMedium";
-			background-color: #000000;
-			position: relative;
-			height: 70px;
-		}
-		.home-link img {
-			position: absolute;
-			left: 50%;
-			top: 5px;
-			transform: translateX(-50%);
-			height: 65px;
-			width: auto;
 		}
 		.wrapper {
 			width: 100vw;
@@ -227,6 +189,20 @@
 		font-family: "KipBold";
 		text-decoration: underline;
 		text-underline-offset: 3px;
+	}
+	.home-link {
+		font-family: "FactMedium";
+		background-color: #000000;
+		position: relative;
+		height: 70px;
+	}
+	.home-link img {
+		position: absolute;
+		left: 50%;
+		top: 5px;
+		transform: translateX(-50%);
+		height: 65px;
+		width: auto;
 	}
 	.s1 {
 		background: linear-gradient(360deg, #ffd04b 0%, #ff9a58 100%),
