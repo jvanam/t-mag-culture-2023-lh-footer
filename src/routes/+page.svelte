@@ -663,7 +663,7 @@
 			left: 0;
 			width: 100%;
 			height: 3px;
-			background-color: #a19be8;
+			background-color: #7c71ff;
 			opacity: 0;
 			transition: opacity 300ms, transform 300ms;
 			transform: translate3d(-100%, 0, 0);
@@ -721,7 +721,7 @@
 			left: 0;
 			width: 100%;
 			height: 3px;
-			background-color: #a19be8;
+			background-color: #7c71ff;
 			opacity: 0;
 			transition: opacity 300ms, transform 300ms;
 			transform: translate3d(-100%, 0, 0);
