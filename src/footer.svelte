@@ -181,29 +181,22 @@
 			justify-content: center;
 			text-align: center;
 		}
+		.home-link {
+			font-family: "FactMedium";
+			background-color: #000000;
+			position: relative;
+			height: 70px;
+		}
 		.home-link img {
 			position: absolute;
 			left: 50%;
 			top: 5px;
 			transform: translateX(-50%);
-			height: 90px;
+			height: 65px;
 			width: auto;
 		}
 		.wrapper {
 			width: 100vw;
-		}
-		.home-link {
-			font-family: "FactMedium";
-			/* background: linear-gradient(180deg, #b9b9b9 0%, #e2e2e0 100%, #e2e2e0 100%); */
-			background-color: #000000;
-			position: relative;
-		}
-		.home-link img {
-			position: absolute;
-			left: 50%;
-			top: 5px;
-			transform: translateX(-50%);
-			width: auto;
 		}
 
 		.section-link .subtitle {
@@ -232,6 +225,8 @@
 	}
 	.title.section4 {
 		font-family: "KipBold";
+		text-decoration: underline;
+		text-underline-offset: 3px;
 	}
 	.s1 {
 		background: linear-gradient(360deg, #ffd04b 0%, #ff9a58 100%),

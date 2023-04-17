@@ -422,6 +422,7 @@
 </script>
 
 <section class="wrapper">
+	<Footer />
 	<Header />
 	<div class="lh-grid">
 		{#each pairs as pair, i}
@@ -461,7 +462,6 @@
 			</a>
 		{/each}
 	</div>
-	<Footer />
 </section>
 
 <style>
@@ -471,8 +471,15 @@
 			display: grid;
 			grid-template-columns: 1fr;
 		}
+		.lh-grid :nth-child(1) > .lh-grid-item {
+			border-top: none !important;
+		}
 	}
 	@media only screen and (min-width: 731px) and (max-width: 1200px) {
+		.lh-grid :nth-child(1) > .lh-grid-item,
+		.lh-grid :nth-child(2) > .lh-grid-item {
+			border-top: none !important;
+		}
 		.lh-grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
@@ -507,6 +514,11 @@
 		}
 	}
 	@media only screen and (min-width: 1201px) and (max-width: 1449px) {
+		.lh-grid :nth-child(1) > .lh-grid-item,
+		.lh-grid :nth-child(2) > .lh-grid-item,
+		.lh-grid :nth-child(3) > .lh-grid-item {
+			border-top: none !important;
+		}
 		.lh-grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
@@ -541,6 +553,13 @@
 		}
 	}
 	@media only screen and (min-width: 1450px) {
+		.lh-grid :nth-child(1) > .lh-grid-item,
+		.lh-grid :nth-child(2) > .lh-grid-item,
+		.lh-grid :nth-child(3) > .lh-grid-item,
+		.lh-grid :nth-child(4) > .lh-grid-item {
+			border-top: none !important;
+		}
+
 		.lh-grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr 1fr;
