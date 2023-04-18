@@ -474,11 +474,18 @@
 		.lh-grid :nth-child(1) > .lh-grid-item {
 			border-top: none !important;
 		}
+		.lh-grid :nth-child(32) > .lh-grid-item {
+			border-bottom: none !important;
+		}
 	}
 	@media only screen and (min-width: 731px) and (max-width: 1200px) {
 		.lh-grid :nth-child(1) > .lh-grid-item,
 		.lh-grid :nth-child(2) > .lh-grid-item {
 			border-top: none !important;
+		}
+		.lh-grid :nth-child(31) > .lh-grid-item,
+		.lh-grid :nth-child(32) > .lh-grid-item {
+			border-bottom: none !important;
 		}
 		.lh-grid {
 			display: grid;
@@ -519,6 +526,10 @@
 		.lh-grid :nth-child(3) > .lh-grid-item {
 			border-top: none !important;
 		}
+		.lh-grid :nth-child(31) > .lh-grid-item,
+		.lh-grid :nth-child(32) > .lh-grid-item {
+			border-bottom: none !important;
+		}
 		.lh-grid {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
@@ -558,6 +569,13 @@
 		.lh-grid :nth-child(3) > .lh-grid-item,
 		.lh-grid :nth-child(4) > .lh-grid-item {
 			border-top: none !important;
+		}
+
+		.lh-grid :nth-child(29) > .lh-grid-item,
+		.lh-grid :nth-child(30) > .lh-grid-item,
+		.lh-grid :nth-child(31) > .lh-grid-item,
+		.lh-grid :nth-child(32) > .lh-grid-item {
+			border-bottom: none !important;
 		}
 
 		.lh-grid {
@@ -618,13 +636,6 @@
 		.grid-underline-row::after {
 			display: none;
 		}
-		.lh-grid-item {
-			position: relative;
-			border-top: 1px black dashed;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
 	}
 	/* MEDIUM */
 	@media only screen and (min-width: 741px) and (max-width: 850px) {
@@ -672,15 +683,6 @@
 		.grid-item-wrapper:focus > .grid-underline-row::after {
 			transform: translate3d(0, 0, 0);
 			opacity: 1;
-		}
-		.lh-grid-item {
-			position: relative;
-			border-top: 1px black dashed;
-			border-bottom: 1px black dashed;
-			margin-bottom: -1px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
 		}
 	}
 	/* LARGE */
@@ -738,15 +740,6 @@
 		.grid-item-wrapper:hover > .grid-underline-row > .heir-text {
 			font-family: "FactCondensedBold";
 		}
-		.lh-grid-item {
-			position: relative;
-			border-top: 1px black dashed;
-			border-bottom: 1px black dashed;
-			margin-bottom: -1px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
 	}
 	/* ALL SCREEN SIZES / GLOBAL */
 	:global(*) {
@@ -764,6 +757,7 @@
 	}
 	.wrapper {
 		background-color: #eeeeee;
+		border-bottom: black 1px dotted;
 	}
 	.grid-underline-row {
 		text-decoration: none;
@@ -788,6 +782,15 @@
 	.small-text {
 		font-size: 13px;
 		font-family: "KipCondensedRegular";
+	}
+	.lh-grid-item {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-block: 1px black dotted;
+		margin-bottom: -1px;
+		margin-right: 1px;
 	}
 
 	@font-face {
