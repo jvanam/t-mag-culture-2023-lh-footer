@@ -442,7 +442,15 @@
 						{/if}
 						<div class="grid-underline-row">
 							<span class="small-text">and</span>
-							<span class="heir-text">{`${pair.heir}, `}</span>
+							{#if i === 18}
+								<span class="heir-text"
+									>xoái ph<span class="accented-a">ạ</span>m</span
+								>
+							{/if}
+							{#if i !== 18}
+								<span class="heir-text">{`${pair.heir}, `}</span>
+							{/if}
+
 							{#if !pair.heirNewLine}
 								<span class="small-text">{`${pair.heirOccupation}`}</span>
 							{/if}
@@ -618,6 +626,14 @@
 		.heir-text {
 			font-size: 16px;
 		}
+		.heir-text > .accented-a {
+			display: inline-block;
+			font-size: 18px;
+			transform: scale(0.8, 1);
+			margin-left: -1%;
+			margin-right: -1%;
+			font-weight: bold;
+		}
 		.legend-text {
 			font-family: "KipCondensedBold";
 		}
@@ -642,6 +658,13 @@
 		.legend-text,
 		.heir-text {
 			font-size: 17px;
+		}
+		.heir-text > .accented-a {
+			display: inline-block;
+			font-size: 19px;
+			transform: scale(0.8, 1);
+			margin-left: -0.7%;
+			margin-right: -0.7%;
 		}
 		.legend-text {
 			font-family: "KipCondensedRegular";
@@ -691,6 +714,13 @@
 		.heir-text {
 			font-size: 17px;
 		}
+		.heir-text > .accented-a {
+			display: inline-block;
+			font-size: 19px;
+			transform: scale(0.8, 1);
+			margin-left: -1%;
+			margin-right: -1%;
+		}
 		.legend-text {
 			font-family: "KipCondensedRegular";
 		}
@@ -739,6 +769,9 @@
 		}
 		.grid-item-wrapper:hover > .grid-underline-row > .heir-text {
 			font-family: "FactCondensedBold";
+		}
+		.grid-item-wrapper:hover > .grid-underline-row > .heir-text > .accented-a {
+			font-weight: bold;
 		}
 	}
 	/* ALL SCREEN SIZES / GLOBAL */
