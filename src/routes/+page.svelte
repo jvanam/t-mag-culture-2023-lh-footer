@@ -166,7 +166,7 @@
 			legendOccupation: "PLAYWRIGHT & actress",
 			legendNewLine: false,
 			heir: "michela marino lerman",
-			heirOccupation: "tap dancer, musician, & choreographer",
+			heirOccupation: "tap dancer, musician & choreographer",
 			heirNewLine: true,
 			articleLink:
 				"https://www.nytimes.com/2023/04/20/t-magazine/anna-deavere-smith-michela-marino-lerman.html",
@@ -279,7 +279,7 @@
 			imgSrc: "/images/Wangechi Mutu _ Priscella Aleman.jpg",
 			imgAlt: "",
 			imgClass: "lg-tr md-tr sm-tl",
-			legend: "wangechu mutu",
+			legend: "wangechi mutu",
 			legendOccupation: "multimedia artist",
 			legendNewLine: false,
 			heir: "priscilla aleman",
@@ -400,7 +400,7 @@
 			legendOccupation: "musicians",
 			legendNewLine: true,
 			heir: "issa rae",
-			heirOccupation: "actress, producer, and screenwriter",
+			heirOccupation: "actress, producer and screenwriter",
 			heirNewLine: false,
 			articleLink:
 				"https://www.nytimes.com/2023/04/20/t-magazine/salt-n-pepa-issa-rae.html",
@@ -412,7 +412,7 @@
 			legend: "madhur jaffrey",
 			legendOccupation: "actress & writer",
 			legendNewLine: false,
-			heir: "michell zauner, a.k.a. japenese breakfast",
+			heir: "michell zauner, a.k.a. japanese breakfast",
 			heirOccupation: "singer-songwriter and writer",
 			heirNewLine: true,
 			articleLink:
